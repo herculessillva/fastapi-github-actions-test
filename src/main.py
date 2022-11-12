@@ -6,7 +6,7 @@ from routes import auth as auth_router, bucket as bucket_router, user as user_ro
 
 Base.metadata.create_all(bind=engine)
 app = FastAPI(
-    title="Demo FastAPI and Github actions app",
+    title="MODIFIED - Demo FastAPI and Github actions app",
     version="0.01",
     description="A FastAPI app deployed to Heroku with a Github actions CI/CD pipeline.",
     contact={
